@@ -1,4 +1,6 @@
 
+EDITOR=vim
+
 #TODO set NIX_PATH
 
 #TODO search nix package via git clone of nixpkgs
