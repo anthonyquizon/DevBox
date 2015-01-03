@@ -1,2 +1,2 @@
-rm ~/.bashrc
-ln -s $(pwd)/scripts/guest/bashrc.sh ~/.bashrc
+rm ~/.bash_profile
+ln -s $(pwd)/scripts/guest/bash_profile.sh ~/.bash_profile
