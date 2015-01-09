@@ -2,3 +2,4 @@
 vagrant plugin install vagrant-nixos
 
 #edit hosts file for development url
+
