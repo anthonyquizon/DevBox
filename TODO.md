@@ -1,7 +1,12 @@
 
 # Provisions
 
-* Rename to DevBox
+### Vagrant
+* Use vagrant-host-shell instead of manually executing setup-host.sh
+    * git@github.com:phinze/vagrant-host-shell.git
+* Use provision shell instead of manually executing setup-guest.sh
+
+### Other
 * Remove firewall with `networking.firewall.enable = false`
 * Setup configuration.nix --default packages
 * Merge vim repo to this one
@@ -14,3 +19,8 @@
         * Environment
         * Work
 * ~/.gitconfig
+
+### Docker
+* create docker commands
+    * bash into container
+    * nix-shell; cabal repl; port default to 8000
